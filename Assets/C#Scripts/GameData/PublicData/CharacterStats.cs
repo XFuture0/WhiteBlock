@@ -11,8 +11,13 @@ public class CharacterStats : MonoBehaviour
     public EnemyData enemyData_Temp;
     private void Awake()
     {
-        if(PlayerStats != null)
+        if (PlayerStats != null)
         {
+            if (PlayerPrefs.HasKey("PlayerStats"))
+            {
+                DataManager.Instance.Load(PlayerStats, "PlayerStats");
+            }
+            DataManager.Instance.Save(PlayerStats, "PlayerStats");
             PlayerStats_Temp = Instantiate(PlayerStats);
         }
         if(enemyData != null)

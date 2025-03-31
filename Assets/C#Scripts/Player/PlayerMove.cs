@@ -22,6 +22,11 @@ public class PlayerMove : MonoBehaviour
         Anim = rb.GetComponent<PlayerAnim>();
         RefreshData();
     }
+    private void OnEnable()
+    {
+        LoadPlayerData();
+        DataManager.Instance.Save(PlayerData,"PlayerData");
+    }
     private void Update()
     {
         Jump();
@@ -99,6 +104,14 @@ public class PlayerMove : MonoBehaviour
         if (transform.GetChild(0).gameObject.activeSelf && other.gameObject.tag == "Enemy")
         {
             PlayerStats.Attack(PlayerStats, other.gameObject.GetComponent<CharacterStats>());
+        }
+    }
+    private void LoadPlayerData()
+    {
+        if (PlayerPrefs.HasKey("PlayerData"))
+        {
+            DataManager.Instance.Load(PlayerData, "PlayerData");
+            RefreshData();
         }
     }
 }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: HatBag
   m_EditorClassIdentifier: 
   InvertoryDatas:
-  - ItemData: {fileID: 0}
-  - ItemData: {fileID: 0}
+  - ItemData: {fileID: 11400000, guid: 280087979bf368c4f822689a3b62eaf2, type: 2}
+  - ItemData: {fileID: 11400000, guid: 280087979bf368c4f822689a3b62eaf2, type: 2}
   - ItemData: {fileID: 0}
   - ItemData: {fileID: 0}
   - ItemData: {fileID: 0}
