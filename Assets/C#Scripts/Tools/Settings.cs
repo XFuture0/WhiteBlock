@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Settings : MonoBehaviour
 {
-    
+    public const float PlayerGravity = 3f;
 }

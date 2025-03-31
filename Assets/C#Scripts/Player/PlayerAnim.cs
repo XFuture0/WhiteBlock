@@ -20,4 +20,12 @@ public class PlayerAnim : MonoBehaviour
     {
         anim.SetFloat("Speed",math.abs(rb.velocity.x));
     }
+    public void PlayerJumpDown_On()
+    {
+        anim.SetBool("JumpDown", true);
+    }
+    public void PlayerJumpDown_End()
+    {
+        anim.SetBool("JumpDown", false);
+    }
 }
