@@ -8,4 +8,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prevent.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/1-1.unity
+    guid: b41dd28f6846d634684818aaf6373707
+  - enabled: 1
+    path: Assets/Scenes/2-1.unity
+    guid: e541f28c59cac2b42a41bd73df0932a0
+  - enabled: 1
+    path: Assets/Scenes/3-1.unity
+    guid: 2595cc2a4a8dd3a4e819b5fc5a58b032
+  - enabled: 1
+    path: Assets/Scenes/4-1.unity
+    guid: 6c46c007146589f4abb5f619554bd558
+  - enabled: 1
+    path: Assets/Scenes/5-1.unity
+    guid: d33fbb38381071648b54cfe47d17e314
+  - enabled: 1
+    path: Assets/Scenes/6-1.unity
+    guid: 2a0faf81cded09648970a79ff9aef664
+  - enabled: 1
+    path: Assets/Scenes/7-1.unity
+    guid: 90715dbbec617c947a1dcf9782bde733
+  - enabled: 1
+    path: Assets/Scenes/8-1.unity
+    guid: be79e253ba587464c982eb04dee593cd
+  - enabled: 1
+    path: Assets/Scenes/9-1.unity
+    guid: 8e7e35e64f3c75f4e80135155683399c
+  - enabled: 1
+    path: Assets/Scenes/10-1.unity
+    guid: 58414c11fce6085429ad83c5ff603fa5
+  - enabled: 1
+    path: Assets/Scenes/11-1.unity
+    guid: 4a4c0d6d6fc6556498d08f70afdd3b4c
   m_configObjects: {}
