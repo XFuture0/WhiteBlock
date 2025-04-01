@@ -36,6 +36,7 @@ public class PlayerCanvs : MonoBehaviour
     private void ReturnGame()
     {
         KeyBoardManager.Instance.StopAnyKey = false;
+        KeyBoardManager.Instance.StopMoveKey = false;
         gameObject.SetActive(false);
     }
 }
